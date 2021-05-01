@@ -3,6 +3,11 @@
   src: url(font/MADEBonVoyage.otf);
 }
 
+@font-face {
+  font-family: "font_RalewayExtraLight";
+  src: url(font/Raleway-ExtraLight.ttf);
+}
+
 .titleHeading {
   font-family:'font_MADEBV';
   line-height: 0px;
@@ -10,7 +15,7 @@
 }
 
 .navHeading {
-  font-family: "Raleway ExtraLight";
+  font-family: "font_RalewayExtraLight";
   margin-left: 50px;
   margin-right: 50px;
   margin-bottom: 0px;
