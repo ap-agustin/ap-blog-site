@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "font_MADEBV";
+  src: url(font/MADEBonVoyage.otf);
+}
+
+.titleHeading {
+  font-family:'font_MADEBV';
+  line-height: 0px;
+  font-weight: normal;
+}
+
+.navHeading {
+  font-family: "Raleway ExtraLight";
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 0px;
+  line-height: 50px;
+  font-size:24px;
+  text-align: left;
+  min-width: 100px;
+}
+
+.navIcon {
+  width: 50px;
+  float: left;
+}
+
+#navDiv {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
