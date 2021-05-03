@@ -13,14 +13,49 @@ html, body {
   background-color: #000000;
 }
 
-#homeDiv {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url("../img/homebg.jpg");;
+.sectionDiv {
+  padding-top: 40px;
+  padding-bottom: 40px;
   background-size: cover;
-  height: 100%;
-  width: 100%;
+  min-height: 1000px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.galleryImage {
+  width: 100%;
+  height: auto;
+  transition: all 0.5s;
+}
+
+.sectionTitle {
+  text-align: center;
+  font-family:"font_MADEBV";
+  color: #FFFFFF;
+  font-size: 90px;
+  line-height: 72px;
+  margin: 0px 20px 0px 20px;
+}
+
+.sectionSubtitle {
+  text-align: center;
+  letter-spacing: 5px;
+  font-family:"font_MADEBV";
+  color: #FFFFFF;
+  font-size: 24px;
+  line-heihgt: 18px;
+  margin: 0px 20px 0px 20px;
+}
+
+.sectionHeading {
+  border-bottom: solid 1px #FFFFFF;
+  width:100%;
+  color: #FFFFFF;
+  font-family: "font_ModernSansLight";
+  text-align: left;
+  font-size: 42px;
+  margin: 0;
 }
 
 .titleHeading {
@@ -29,7 +64,19 @@ html, body {
   text-align: center;
 }
 
+.sectionParagraph {
+  width:100%;
+  color: #FFFFFF;
+  font-family: "font_ModernSansLight";
+  text-align: left;
+  text-indent: 50px;
+  font-size: 24px;
+  margin: 0;
+}
+
 .navHeading {
+  color: #000000;
+  text-decoration: none;
   border-radius: 10px;
   line-height: 120px;
   text-align: center;
