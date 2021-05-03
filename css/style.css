@@ -4,8 +4,12 @@
 }
 
 @font-face {
-  font-family: "font_RalewayExtraLight";
-  src: url(font/Raleway-ExtraLight.ttf);
+  font-family: "font_ModernSansLight";
+  src: url(font/ModernSans-Light.otf);
+}
+
+html, body {
+  margin: 0;
 }
 
 .titleHeading {
@@ -15,24 +19,53 @@
 }
 
 .navHeading {
-  font-family: "font_RalewayExtraLight";
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-bottom: 0px;
-  line-height: 50px;
-  font-size:24px;
-  text-align: left;
-  min-width: 100px;
+  font-family: "font_ModernSansLight";
+  font-size: 24px;
+  min-width: 200px;
+  width: 25%;
+  height: 35px;
+  text-align: center;
+  padding-top: 10px;
+  background-size: cover;
+  background-position: center;
+  color: #FFFFFF;
+  margin: 0px;
 }
-
+/*
 .navIcon {
   width: 50px;
   float: left;
 }
-
+*/
 #navDiv {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+#navHome, #navNews, #navFeature, #navLiterature {
+  width: 25%;
+}
+
+@media screen and (max-width: 800px) {
+  #navHome, #navNews, #navFeature {
+    width: calc(100%/3);
+  }
+  #navLiterature {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  #navHome, #navNews {
+    width: 50%;
+  }
+  #navFeature, #navLiterature {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 400px) {
+  #navHome, #navNews, #navFeature, #navLiterature {
+    width: 100%;
+  }
 }
