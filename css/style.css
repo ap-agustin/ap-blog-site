@@ -30,6 +30,7 @@ html, body {
 }
 
 .navHeading {
+  border-radius: 10px;
   line-height: 120px;
   text-align: center;
   font-size: 24px;
@@ -59,8 +60,8 @@ html, body {
   min-width: 60px;
   background-color: #FFFFFF;
   border: none;
-  font-size: 60px;
-  line-height: 50px;
+  font-size: 36px;
+  line-height: 36px;
   margin-left: 20px;
 }
 
@@ -80,11 +81,16 @@ html, body {
 }
 
 .navHeading:hover {
-  background-color: #F8F8F8;
+  background-color: #F5F5F5;
 }
 
-@media screen and (max-width: 1040px) {
+.currentPage {
+  border-bottom: 8px solid #20B2AA;
+  border-left: none;
+}
+@media screen and (max-width: 1210px) {
   .navHeading {
+    border-radius: 0px;
     width: 100%;
     margin: 0;
     height: 0;
@@ -102,5 +108,9 @@ html, body {
   .show {
     opacity: 1;
     height: 60px;
+  }
+  .currentPage {
+    border-left: 8px solid #20B2AA;
+    border-bottom: none;
   }
 }
