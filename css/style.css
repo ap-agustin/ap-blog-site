@@ -10,62 +10,79 @@
 
 html, body {
   margin: 0;
+  background-color: #000000;
+}
+
+#homeDiv {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url("../img/homebg.jpg");;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .titleHeading {
-  font-family:'font_MADEBV';
-  line-height: 0px;
-  font-weight: normal;
+  font-family: "font_MADEBV";
+  line-height: 0;
+  text-align: center;
 }
 
 .navHeading {
-  font-family: "font_ModernSansLight";
-  font-size: 24px;
-  min-width: 200px;
-  width: 25%;
-  height: 35px;
+  line-height: 120px;
   text-align: center;
-  padding-top: 10px;
-  background-size: cover;
-  background-position: center;
-  color: #FFFFFF;
-  margin: 0px;
+  font-size: 24px;
+  font-family: "font_ModernSansLight";
+  flex-grow: 1;
+  height: 120px;
+  min-width: 150px;
+  margin: 10px;
+  transition: background-color 0.2s, opacity 0.5s, height 0.5s;
 }
-/*
-.navIcon {
-  width: 50px;
-  float: left;
+
+#titleDiv {
+  min-width: 300px;
+  flex-grow: 1.5;
+  margin: 20px;
 }
-*/
+
 #navDiv {
-  width: 100%;
+  background-color: #FFFFFF;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
-#navHome, #navNews, #navFeature, #navLiterature {
-  width: 25%;
+#dropdownButton {
+  display: none;
+  min-width: 60px;
+  background-color: #FFFFFF;
+  border: none;
+  font-size: 50px;
+  line-height: 50px;
+  margin-left: 20px;
 }
 
-@media screen and (max-width: 800px) {
-  #navHome, #navNews, #navFeature {
-    width: calc(100%/3);
-  }
-  #navLiterature {
-    width: 100%;
-  }
+.navHeading:hover {
+  background-color: #F8F8F8;
 }
-@media screen and (max-width: 600px) {
-  #navHome, #navNews {
-    width: 50%;
-  }
-  #navFeature, #navLiterature {
-    width: 50%;
-  }
-}
-@media screen and (max-width: 400px) {
-  #navHome, #navNews, #navFeature, #navLiterature {
+
+@media screen and (max-width: 1040px) {
+  .navHeading {
     width: 100%;
+    margin: 0;
+    height: 0;
+    opacity: 0;
+    line-height: 60px;
+    text-align: left;
+    padding-left: 30px;
+  }
+  #dropdownButton {
+    display: block;
+  }
+  .show {
+    opacity: 1;
+    height: 60px;
   }
 }

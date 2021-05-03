@@ -7,19 +7,30 @@
     <title>Site Title</title>
   </head>
   <body>
-    <br />
-    <div id="titleDiv" style="text-align:center;">
-      <h2 class="titleHeading" style="font-size:36px;">Kontemporaryong</h2>
-      <h1 class="titleHeading" style="font-size:120px; margin-bottom: 36px;">Website</h1>
-    </div>
-    <br /><br />
     <div id="navDiv">
-      <p id="navHome" class="navHeading" style="background-color: #010101;">Home</p>
-      <p id="navNews" class="navHeading" style="background-color: #232323;">News</p>
-      <p id="navFeature" class="navHeading" style="background-color: #454545;">Feature</p>
-      <p id="navLiterature" class="navHeading" style="background-color: #676767;">Literature</p>
+      <button type="button" id="dropdownButton" onclick="dropDown()">&#9776;</button>
+      <div id="titleDiv">
+        <h2 class="titleHeading" style="font-size:24px;">Kontemporaryong</h2>
+        <h1 class="titleHeading" style="font-size:72px; margin-bottom: 36px;">Website</h1>
+      </div>
+      <p id="navHome" class="navHeading" style="text-decoration: underline;">Home</p>
+      <p id="navNews" class="navHeading">News</p>
+      <p id="navFeature" class="navHeading">Feature</p>
+      <p id="navLiterature" class="navHeading">Literature</p>
       <!--Photo by brotiN biswaS from Pexels-->
     </div>
-    <img src="img/homebg.jpg" style="width:100%"/>
+    <div id="homeDiv">
+      <div>
+        <p style="text-align: center; font-family:'font_MADEBV'; color: #FFFFFF; font-size: 90px; line-height: 72px; margin: 0px 20px 0px 20px">Sic itur ad astra.</p>
+        <p style="text-align: center; letter-spacing: 5px; font-family:'font_ModernSansLight'; color: #FFFFFF; font-size: 24px; line-heihgt: 18px; margin: 0px 20px 0px 20px">Thus one journeys to the stars.</p>
+      </div>
+    </div>
   </body>
+  <script>
+    function dropDown() {
+      for (var i = 0; i < document.querySelectorAll(".navHeading").length; i++) {
+        document.querySelectorAll(".navHeading")[i].classList.toggle("show");
+      }
+    }
+  </script>
 </html>
