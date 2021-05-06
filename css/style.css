@@ -17,17 +17,18 @@ html, body {
   padding-top: 40px;
   padding-bottom: 40px;
   background-size: cover;
-  min-height: 1000px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-#gallery {
+.gallery {
+  width: 100%;
   padding: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
 }
 
 .imageCaption {
@@ -40,9 +41,10 @@ html, body {
 }
 
 .galleryImage {
-  margin: 0px;
+  margin: 10px;
+  max-width: 500px;
+  width: 100%;
   height: auto;
-  transition: all 0.5s;
 }
 
 .sectionTitle {
@@ -54,14 +56,21 @@ html, body {
   margin: 0px 20px 0px 20px;
 }
 .sectionOverlay {
+  padding: 0;
+  display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   position: absolute;
   margin: 0;
-  background-color: rgba(0,0,0,0.9);
+  background-color: rgba(0, 0, 0, 0.9);
   width: 100%;
   height: 100%;
+  transition: all 0.5s;
+}
+
+.clickable:hover {
+  cursor: pointer;
 }
 
 .sectionSubtitle {
@@ -185,19 +194,5 @@ html, body {
   .currentPage {
     border-left: 8px solid #20B2AA;
     border-bottom: none;
-  }
-  .galleryImage {
-    width: 100%;
-  }
-}
-
-.halfWidth {
-  width: 50%;
-}
-
-
-@media screen and (max-width: 1100px) {
-  .halfWidth {
-    width: 100%;
   }
 }
