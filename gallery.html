@@ -14,13 +14,12 @@
         <h1 class="titleHeading" style="font-size:72px; margin-bottom: 36px;">Website</h1>
       </div>
       <a href="index.html" id="navHome" class="navHeading">Home</a>
-      <a id="navNews" class="navHeading">News</a>
-      <a id="navFeature" class="navHeading">Feature</a>
+      <a href="articles.html" id="navArticles" class="navHeading">Articles</a>
       <a id="navLiterature" class="navHeading">Literature</a>
       <a id="navGallery" class="navHeading currentPage">Gallery</a>
       <!--Photo by Steve Johnson from Pexels-->
     </div>
-    <div style="position:relative;">
+    <div style="position:relative; border-bottom: solid 5px #A8E6CE;">
       <div id="divTradArt" class="sectionOverlay" style="visibility: hidden; opacity: 0;">
         <div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap;">
           <div style="max-width: 800px; margin: 10px;">
@@ -31,16 +30,21 @@
             <p class="imageCaption clickable" style="color: rgba(255, 255, 255, 0.7)" class="clickable" onclick="closeTradArt()">&#x2715; Close</p>
             <br /><br />
           </div>
-          <div style="max-width: 400px; margin: 10px;">
-            <p class="sectionTitle" id="titleTradArt"></p>
-            <p class="sectionSubtitle">Image by <span id="authorTradArt"></span></p>
-            <br /><hr /><br />
-            <p class="sectionParagraph" id="descriptionTradArt"></p>
+          <div style="max-width: 450px; margin: 20px; background-color: #FFFFFF; border-radius: 40px; text-align: center; border-left: 8px solid #FF8C94;">
+            <br />
+            <div style="margin: 20px;">
+              <p class="sectionHeading" style="color: #000000;" id="titleTradArt"></p>
+              <p class="sectionParagraph" style="color: #000000; text-indent: 0px; margin-left: 0px;">
+                Image by <span id="authorTradArt"></span>
+              </p>
+            </div>
+            <p class="sectionParagraph" style="color: #000000" id="descriptionTradArt"></p>
+            <br />
           </div>
         </div>
       </div>
       <div class="sectionDiv" style="
-        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 1)), url('img/gallerybg.jpg');
+        background-image: linear-gradient(rgba(34, 119, 86, 0.7), rgba(34, 119, 86, 0.3)), url('img/gallerybg.jpg');
       ">
         <div style="text-align: center; max-width: 1100px; width: 100%; padding: 0">
           <p class="sectionTitle">Art Gallery</p>
@@ -57,11 +61,8 @@
         </div>
       </div>
     </div>
-    <div align="center">
-      <hr style="margin: 0px 20px 0px 20px; max-width: 700px;"/>
-    </div>
     <!--Photo by PhotoMIX Company from Pexels-->
-    <div style="position:relative;">
+    <div style="position:relative; border-top: solid 5px #FFD3B5;">
       <div id="divMedia" class="sectionOverlay" style="visibility: hidden; opacity: 0;">
         <div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap;">
           <div style="max-width: 800px; margin: 10px;">
@@ -72,16 +73,21 @@
             <p class="imageCaption clickable" style="color: rgba(255, 255, 255, 0.7)" onclick="closeMedia()">&#x2715; Close</p>
             <br /><br />
           </div>
-          <div style="max-width: 400px; margin: 10px;">
-            <p class="sectionTitle" id="titleMedia"></p>
-            <p class="sectionSubtitle">Image by <span id="authorMedia"></span></p>
-            <br /><hr /><br />
-            <p class="sectionParagraph" id="descriptionMedia"></p>
+          <div style="max-width: 450px; margin: 20px; background-color: #FFFFFF; border-radius: 40px; text-align: center; border-left: 8px solid #FF8C94;">
+            <br />
+            <div style="margin: 20px;">
+              <p class="sectionHeading" style="color: #000000;" id="titleMedia"></p>
+              <p class="sectionParagraph" style="color: #000000; text-indent: 0px; margin-left: 0px;">
+                Image by <span id="authorMedia"></span>
+              </p>
+            </div>
+            <p class="sectionParagraph" style="color: #000000" id="descriptionMedia"></p>
+            <br />
           </div>
         </div>
       </div>
       <div id="shadowMedia" class="sectionDiv" style="
-        background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url('img/gallerybg2.jpg');
+        background-image: linear-gradient(rgba(153, 61, 0, 0.7), rgba(153, 61, 0, 0.3)), url('img/gallerybg2.jpg');
       ">
         <div style="text-align: center; max-width: 1100px; width: 100%; padding: 0">
           <p class="sectionTitle">Photos</p>

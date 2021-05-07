@@ -8,13 +8,13 @@ const galleryImages = [
   "https://picsum.photos/seed/135cmi/1920/1080"
 ]; // replace with actual urls
 const galleryTitles = [
-  "TITLE 1",
-  "TITLE 2",
-  "TITLE 3",
-  "TITLE 4",
-  "TITLE 5",
-  "TITLE 6",
-  "TITLE 7",
+  "Title 1",
+  "Title 2",
+  "Title 3",
+  "Title 4",
+  "Title 5",
+  "Title 6",
+  "Title 7",
 ];
 const galleryAuthors = [
   "John Doe",
