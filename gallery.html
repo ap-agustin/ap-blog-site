@@ -20,7 +20,7 @@
       <!--Photo by Steve Johnson from Pexels-->
     </div>
     <div style="position:relative; border-bottom: solid 5px #A8E6CE;">
-      <div id="divTradArt" class="sectionOverlay" style="visibility: hidden; opacity: 0; background-color: rgba(215, 244, 233, 0.75);">
+      <div id="divTradArt" class="sectionOverlay" style="visibility: hidden; background-color: rgba(215, 244, 233, 0.75);">
         <div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap;">
           <div style="max-width: 800px; margin: 10px;">
             <img id="tradArt" class="galleryImage" style="margin: 0px;"/>
@@ -28,10 +28,14 @@
             <div style="background-color: #FFFFFF; border-radius: 40px; text-align: center; border-left: 8px solid #A8E6CE;">
               <br />
               <p id="captionTradArt" class="imageCaption" style="color: #000000;"></p>
-              <p class="imageCaption clickable" style="color: #000000" class="clickable" onclick="closeTradArt()">&#x2715; Close</p>
+              <p class="imageCaption" style="color: #000000; font-size: 18px;">
+                <span class="clickable" onclick="closeTradArt()">&#x2715; Close</span>
+                <a id="downloadTradArt" class="clickable" style="color: #000000; text-decoration: none" download>
+                  &#8595; Download
+                </a>
+              </p>
               <br />
             </div>
-            <br /><br />
           </div>
           <div style="max-width: 450px; margin: 20px; background-color: #FFFFFF; border-radius: 40px; text-align: center; border-left: 8px solid #A8E6CE;">
             <br />
@@ -54,7 +58,7 @@
           <p class="sectionSubtitle">Labor omnia vincit.</p>
           <br />
           <div class="gallery">
-            <img src="https://picsum.photos/seed/slgj41/1920/1080" onclick="openTradArt(0);" class="galleryImage clickable"/>
+            <img src="img/art/obra.jpg" onclick="openTradArt(0);" class="galleryImage clickable"/>
             <img src="https://picsum.photos/seed/safc4t/1920/1080" onclick="openTradArt(1);" class="galleryImage clickable"/>
             <img src="https://picsum.photos/seed/axe139/1920/1080" onclick="openTradArt(2);" class="galleryImage clickable"/>
             <img src="https://picsum.photos/seed/ohgdno/1920/1080" onclick="openTradArt(3);" class="galleryImage clickable"/>
@@ -66,7 +70,7 @@
     </div>
     <!--Photo by PhotoMIX Company from Pexels-->
     <div style="position:relative; border-top: solid 5px #FFD3B5;">
-      <div id="divMedia" class="sectionOverlay" style="visibility: hidden; opacity: 0; background-color: rgba(255, 240, 230, 0.75);">
+      <div id="divMedia" class="sectionOverlay" style="visibility: hidden; background-color: rgba(255, 240, 230, 0.75);">
         <div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap;">
           <div style="max-width: 800px; margin: 10px;">
             <img id="media" class="galleryImage" style="margin: 0px;"/>
@@ -74,10 +78,14 @@
             <div style="background-color: #FFFFFF; border-radius: 40px; text-align: center; border-left: 8px solid #FFD3B5;">
               <br />
               <p id="captionMedia" class="imageCaption" style="color: #000000;"></p>
-              <p class="imageCaption clickable" style="color: #000000" class="clickable" onclick="closeMedia()">&#x2715; Close</p>
+              <p class="imageCaption" style="color: #000000; font-size: 18px;">
+                <span class="clickable" onclick="closeMedia()">&#x2715; Close</span>
+                <a id="downloadMedia" class="clickable" style="color: #000000; text-decoration: none" download>
+                  &#8595; Download
+                </a>
+              </p>
               <br />
             </div>
-            <br /><br />
           </div>
           <div style="max-width: 450px; margin: 20px; background-color: #FFFFFF; border-radius: 40px; text-align: center; border-left: 8px solid #FFD3B5;">
             <br />

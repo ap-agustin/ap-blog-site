@@ -1,5 +1,5 @@
 const galleryImages = [
-  "https://picsum.photos/seed/slgj41/1920/1080",
+  "img/art/obra.jpg",
   "https://picsum.photos/seed/safc4t/1920/1080",
   "https://picsum.photos/seed/axe139/1920/1080",
   "https://picsum.photos/seed/ohgdno/1920/1080",
@@ -8,7 +8,7 @@ const galleryImages = [
   "https://picsum.photos/seed/135cmi/1920/1080"
 ]; // replace with actual urls
 const galleryTitles = [
-  "Title 1",
+  "Obra",
   "Title 2",
   "Title 3",
   "Title 4",
@@ -17,7 +17,7 @@ const galleryTitles = [
   "Title 7",
 ];
 const galleryAuthors = [
-  "John Doe",
+  "James F. Baldemoro",
   "Firstname Lastname",
   "星街すいせい",
   "Vincent Van Gogh",
@@ -26,7 +26,7 @@ const galleryAuthors = [
   "Ἀριστείδης ὁ Θηβαῖος",
 ];
 const galleryCaptions = [
-  "Natura non contristatur.",
+  "In omnibus caritas.",
   "Deus vult.",
   "きえたい。",
   "Look behind you.",
@@ -38,7 +38,7 @@ const galleryDescriptions = [
 
   // Trad Arts
 
-  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  "Ang aking gawa ay dinedepikto ang diskriminasyon sa mga taong kakaiba. Ang diskriminasyon ay isang pag-iisip na sarado at isang kabulagan sa atin. Ito'y nakakasama sa mga taong iba ang katangian kaysa sa nakakarami kaya't sila'y naparito na lamang sa aking obra, naghihintay sa mga taong maaaring maintindihan ang kanilang sitwasyon at balang araw, makakalabas sila sa kanilang pagkakakulong sa saradong dikta at titig ng nakakarami.",
 
   "Phasellus ullamcorper lacus nulla, et hendrerit tortor consectetur at. Phasellus sagittis luctus justo ac pharetra. Mauris vel tortor fringilla, scelerisque massa a, congue nisl. Pellentesque malesuada arcu odio, sit amet blandit lacus faucibus vitae. Proin varius nibh tellus. Aliquam eleifend eros in hendrerit efficitur. Suspendisse iaculis dapibus sodales. Etiam viverra nisl justo, ut maximus eros viverra viverra. Cras mattis ornare magna.",
 
@@ -62,6 +62,7 @@ const authorTradArt = document.getElementById("authorTradArt");
 const captionTradArt = document.getElementById("captionTradArt");
 const descriptionTradArt = document.getElementById("descriptionTradArt");
 const shadowTradArt = document.getElementById("shadowTradArt");
+const downloadTradArt = document.getElementById("downloadTradArt");
 const divMedia = document.getElementById("divMedia");
 const media = document.getElementById("media");
 const titleMedia = document.getElementById("titleMedia");
@@ -69,6 +70,7 @@ const authorMedia = document.getElementById("authorMedia");
 const captionMedia = document.getElementById("captionMedia");
 const descriptionMedia = document.getElementById("descriptionMedia");
 const shadowMedia = document.getElementById("shadowMedia");
+const downloadMedia = document.getElementById("downloadMedia");
 
 function dropDown() {
   for (var i = 0; i < document.querySelectorAll(".navHeading").length; i++) {
@@ -79,31 +81,29 @@ function dropDown() {
 function openTradArt(id) {
   closeMedia();
   tradArt.src = galleryImages[id];
+  downloadTradArt.href = galleryImages[id];
   titleTradArt.innerHTML = galleryTitles[id];
   authorTradArt.innerHTML = galleryAuthors[id];
   captionTradArt.innerHTML = galleryCaptions[id];
   descriptionTradArt.innerHTML = galleryDescriptions[id];
   divTradArt.style.visibility = "visible";
-  divTradArt.style.opacity = 1;
 }
 
 function closeTradArt() {
-  divTradArt.style.opacity = 0;
   divTradArt.style.visibility = "hidden";
 }
 
 function openMedia(id) {
   closeTradArt();
   media.src = galleryImages[id];
+  downloadMedia.href = galleryImages[id];
   titleMedia.innerHTML = galleryTitles[id];
   authorMedia.innerHTML = galleryAuthors[id];
   captionMedia.innerHTML = galleryCaptions[id];
   descriptionMedia.innerHTML = galleryDescriptions[id];
   divMedia.style.visibility = "visible";
-  divMedia.style.opacity = 1;
 }
 
 function closeMedia() {
-  divMedia.style.opacity = 0;
   divMedia.style.visibility = "hidden";
 }
