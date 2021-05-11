@@ -5,7 +5,8 @@ const galleryImages = [
   "https://picsum.photos/seed/ohgdno/1920/1080",
   "img/media/witheringgift.jpg",
   "img/media/pollution.jpg",
-  "img/media/poverty.jpg"
+  "img/media/poverty.jpg",
+  "img/media/missingout.jpg"
 ]; // replace with actual urls
 const galleryTitles = [
   "Obra",
@@ -15,24 +16,27 @@ const galleryTitles = [
   "Withering Gift",
   "Tainting Beauty",
   "Bliss in Tribulation",
+  "Missing Out"
 ];
 const galleryAuthors = [
   "James F. Baldemoro",
-  "Keane Estrabo",
+  "Keane Mirielle D. Estrabo",
   "星街すいせい",
   "Vincent Van Gogh",
-  "Pikachu",
-  "Lastname Firstname",
-  "Ἀριστείδης ὁ Θηβαῖος",
+  "Mark Romeo R. Perez",
+  "Naomi Zoe M. Isoga",
+  "Naomi Zoe M. Isoga",
+  "Jules Michael S. Bala"
 ];
 const galleryCaptions = [
   "In omnibus caritas.",
   "Libertas perfundet omnia luce.",
   "きえたい。",
   "Look behind you.",
-  "t",
+  "\"The environment is where we all meet; where we all have a mutual interest; it is the one thing all of us share.\"<br /><span style='font-size: 18px'>-Lady Bird Johnson</span>",
   "\"Only we humans make waste that nature can't digest.\"<br /><span style='font-size: 18px'>-Charles Moore</span>",
-  "\"To stand at ease in the midst of tribulation, shows a veteran spirit, long experience, and much grace.\"<br /><span style='font-size: 18px'>-Charles Spurgeon</span>"
+  "\"To stand at ease in the midst of tribulation, shows a veteran spirit, long experience, and much grace.\"<br /><span style='font-size: 18px'>-Charles Spurgeon</span>",
+  "\"When the productive lands lose their essence, our productive lives shall least have essence!\"<br /><span style='font-size: 18px'>-Ernest Agyemang Yeboah</span>"
 ];
 const galleryDescriptions = [
 
@@ -48,12 +52,13 @@ const galleryDescriptions = [
 
   // Media
 
-  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  "The gifts of nature are being used for granted, and thus, they are being destroyed. We must make a plan to make our environment healthy again!",
 
   "The picture portrays how the beauty of mother nature is being harmed as a result of people’s inability to dispose of their waste in a garbage dump.",
 
-  "This picture shows how this man can find happiness and thank god in poverty. Based on research people who live in poverty have lower life satisfaction or that people in poverty struggle to find happiness. Some say that money affects a person’s happiness but don’t you think that there are more factors to happiness than just money. People can still find happiness without having much money and we can see that in this picture.",
+  "This picture shows how this man can find happiness and thank God in poverty. Based on research people who live in poverty have lower life satisfaction or that people in poverty struggle to find happiness. Some say that money affects a person’s happiness but don’t you think that there are more factors to happiness than just money. People can still find happiness without having much money and we can see that in this picture.",
 
+  "Deforestation is also the one why we have climate change in our environment. In this picture I want to show that we have only one \"missing out\" what i mean is that we should not forget our environment, because these days we always focus on improving so that's why some of our trees have \"missing out\". My point on this photograph is to let people realise that we should take care of our environment so that no one will be \"missing out.\""
 ];
 const divTradArt = document.getElementById("divTradArt");
 const tradArt = document.getElementById("tradArt");

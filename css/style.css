@@ -152,8 +152,8 @@ html, body {
 
 .containerYouTube {
   position: relative;
-  width: 100%;
   padding-bottom: 56.25%;
+  margin: 0px 40px 20px 40px;
 }
 
 .videoYoutube {
@@ -169,8 +169,13 @@ html, body {
   background-color: #F5F5F5;
 }
 
+#footerDiv {
+  background-color: #121212;
+  min-height: 250px;
+}
+
 .currentPage {
-  border-bottom: 8px solid #20B2AA;
+  border-bottom: 8px solid #232323;
   border-left: none;
 }
 @media screen and (max-width: 1040px) {
