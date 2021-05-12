@@ -26,8 +26,8 @@ const galleryAuthors = [
   "星街すいせい",
   "Vincent Van Gogh",
   "Mark Romeo R. Perez",
-  "Naomi Zoe M. Isoga",
-  "Naomi Zoe M. Isoga",
+  "Naomi Zoe M. Isoga and Angelica Cargado",
+  "Naomi Zoe M. Isoga and Angelica Cargado",
   "Jules Michael S. Bala",
   "Christine T. Zaragoza"
 ];
