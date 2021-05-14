@@ -1,7 +1,7 @@
 const galleryImages = [
   "img/art/obra.jpg",
   "img/art/handofliberty.jpg",
-  "https://picsum.photos/seed/axe139/1920/1080",
+  "img/art/battered.jpg",
   "https://picsum.photos/seed/ohgdno/1920/1080",
   "img/media/witheringgift.jpg",
   "img/media/pollution.jpg",
@@ -13,7 +13,7 @@ const galleryImages = [
 const galleryTitles = [
   "Obra",
   "The Hand of Liberty",
-  "Title 3",
+  "Damaged Rose",
   "Title 4",
   "Withering Gift",
   "Tainting Beauty",
@@ -25,7 +25,7 @@ const galleryTitles = [
 const galleryAuthors = [
   "James F. Baldemoro",
   "Keane Mirielle D. Estrabo",
-  "星街すいせい",
+  "Vanne Eurik D. Balansay",
   "Vincent Van Gogh",
   "Mark Romeo R. Perez",
   "Naomi Zoe M. Isoga and Angelica Cargado",
@@ -37,7 +37,7 @@ const galleryAuthors = [
 const galleryCaptions = [
   "In omnibus caritas.",
   "Libertas perfundet omnia luce.",
-  "きえたい。",
+  "I look at my reflection and realize how pretty I am... Pretty damaged.",
   "Look behind you.",
   "\"The environment is where we all meet; where we all have a mutual interest; it is the one thing all of us share.\"<br /><span style='font-size: 18px'>- Lady Bird Johnson</span>",
   "\"Only we humans make waste that nature can't digest.\"<br /><span style='font-size: 18px'>- Charles Moore</span>",
@@ -54,7 +54,7 @@ const galleryDescriptions = [
 
   "This represents “Human Rights”. Trans Rights, BLM, and LGBT rights, these are the examples used in the drawing. The issue concerning them is that they experience discrimination and racism which violates the law for Human Rights. The fists symbolize the strength and unity of people who came from different races. The hand in the middle belongs to the Statue of Liberty. The purpose of that is to show that these people have the freedom to live their lives too.",
 
-  "向渡ロ遇奥う全覧ぞ歩需スノ権最ヤ答在選ロナソ安最アケ画聞育チヒヤホ仙冬カ動61法伯堤7需へいし脈余献老まとドょ。債3般時へ並浮ルイト度職に城48報ゅやき豊衛り直4細れラや返竹のンもと無牲ヤユナ新作ワマ週課ぱちやが題卒ニヲ終表あ屋団ス加独験フら。里ぴおぎ方始多内みそ演爆議ち権男レつ巡声リ隠人夜オタフユ政和かんフリ冷見メテヌネ棋間やごぐ標変チア更報仁は。",
+  "Pricks of roses,<p>Beauty imposes,</p><p>In hidden thresholds,</p><p>Your bags of losses.</p>",
 
   "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful.",
 
