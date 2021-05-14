@@ -124,7 +124,7 @@ html, body {
 }
 
 #titleDiv {
-  min-width: 300px;
+  min-width: 250px;
   flex-grow: 1.5;
   margin: 20px;
 }
